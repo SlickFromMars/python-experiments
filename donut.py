@@ -50,6 +50,7 @@ run = True
 while run:
 
     screen.fill((black))
+    hue += 0.01
 
     z = [0] * screen_size
     b = [' '] * screen_size
