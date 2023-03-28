@@ -1,7 +1,7 @@
 import os
 import random
 
-chance = 4
+chance = 6
 
 if random.randint(0, chance) == chance:
     print("DEATH")
